@@ -1,0 +1,14 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. PAYROLL01.
+
+       ENVIRONMENT DIVISION.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  WS-SALARY        PIC 9(7).
+       01  WS-BONUS         PIC 9(5).
+
+       PROCEDURE DIVISION.
+           *> COBOL 工程師練習：修改這行註解
+           COMPUTE WS-SALARY = WS-SALARY + WS-BONUS.
+           STOP RUN.
