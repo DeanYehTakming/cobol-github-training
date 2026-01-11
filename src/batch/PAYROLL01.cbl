@@ -10,5 +10,5 @@
 
        PROCEDURE DIVISION.
            *> COBOL 工程師練習：修改這行註解
-           COMPUTE WS-SALARY = WS-SALARY + WS-BONUS
+           COMPUTE WS-SALARY = WS-SALARY + WS-BONUS.
            STOP RUN.

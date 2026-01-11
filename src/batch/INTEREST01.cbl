@@ -8,5 +8,5 @@
 
        PROCEDURE DIVISION.
            *> COBOL 工程師練習：查看差異、Review 範例
-           COMPUTE WS-AMOUNT = WS-AMOUNT * WS-RATE
+           COMPUTE WS-AMOUNT = WS-AMOUNT * WS-RATE.
            STOP RUN.
